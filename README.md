@@ -1,7 +1,19 @@
 # **Capro**
-Using Capro to simulate the generation of several curve structure diagrams from a single unlabeled image, and train your own detector to complete the curve structure segmentation based on SAM (with better results for cracks and medical applications)
+
+## Introduction
+
+Curvilinear Structure Segmentation (CSS) is crucial for applications like medical imaging and structural health monitoring. While the Segment Anything Model (SAM) shows potential for CSS, its direct application yields poor results, and existing adaptation methods rely heavily on costly pixel-level annotations and numerous training samples. This paper addresses a more challenging and practical scenario: adapting SAM using only a *single unlabeled image*. To this end, we propose **Curvilinear-aware Prompt Learning (CaPro)**, a fine-tuning-free framework. *CaPro* operates in two stages: first, it synthesizes curvilinear structures and trains a self-supervised *oriented* object detector to generate prompts; second, it introduces a **curvilinear-aware discrete representation matching** mechanism to filter out unreliable prompts by leveraging shared topological patterns with handwritten digits. This approach enables cost-effective and annotation-free adaptation of SAM to CSS tasks, demonstrating significant performance improvements.
+
+![image-20251116143100904](C:\Users\pc\AppData\Roaming\Typora\typora-user-images\image-20251116143100904.png)
 
 Models may be needed: https://pan.baidu.com/s/1i7Kid7Io943dJNiH39GylQ?pwd=1fj5
+
+
+
+### Co-first Author
+
+- Zhuangzhuang Chen
+- Qiangyu Chen
 
 ## **Installation**
 
@@ -100,9 +112,21 @@ Here is a simple evaluation function to evaluate the quality of the image segmen
 python .\eval.py
 ```
 
+## 🚀 Implementation reference and Express our gratitude
 
+- https://github.com/facebookresearch/segment-anything
+- https://github.com/TY-Shi/FreeCOS
+- https://github.com/ZeroE04/R-CenterNet
 
+## 😄 Feel free to contact us
 
+- qiangyuchen516@gmail.com
 
+## Citation
 
+If you find our paper is helpful in your research or applications, please consider citing:
+
+```
+
+```
 
