@@ -120,15 +120,22 @@ python .\eval.py
 
 ## 😄 Feel free to contact us
 
-- qiangyuchen516@gmail.com
+- qiangyuchen516@gmail.com (Qiangyu Chen)
+- 1248013830@qq.com (Zhuangzhuang Chen)
 
 ## Citation
 
 If you find our paper is helpful in your research or applications, please consider citing:
 
 ```
-
+@inproceedings{chen2026capro,
+  title={{CaPro}: Curvilinear-aware Prompt Learning with Single Unlabeled Image for Cost-effective Curvilinear Structure Segmentation},
+  author={Chen, Zhuangzhuang and Chen, Qiangyu and Ou, Chubin and Li, Xiaomeng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026}
+}
 ```
+
 
 
 
