@@ -1,4 +1,4 @@
-# **Capro**
+# **Capro:** Curvilinear-aware Prompt Learning with Single Unlabeled Image for Cost-effective Curvilinear Structure Segmentation
 
 ## Introduction
 
@@ -135,6 +135,7 @@ If you find our paper is helpful in your research or applications, please consid
   year={2026}
 }
 ```
+
 
 
 
