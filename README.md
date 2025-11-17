@@ -20,7 +20,7 @@ Models may be needed: https://pan.baidu.com/s/1i7Kid7Io943dJNiH39GylQ?pwd=1fj5
 #### **1. Clone the Repository:**
 
 ```bash
-git clone https://github.com/QiangyuChen1/Capro.git
+git clone https://github.com/xmed-lab/Capro.git
 ```
 
 #### **2. Create a conda environment:**
@@ -135,6 +135,7 @@ If you find our paper is helpful in your research or applications, please consid
   year={2026}
 }
 ```
+
 
 
 
